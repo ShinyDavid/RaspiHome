@@ -1,0 +1,14 @@
+Errores conocidos:
+
+Error: 
+	python3: src/hostapi/alsa/pa_linux_alsa.c:3641: PaAlsaStreamComponent_BeginPolling: Assertion `ret == self->nfds' failed
+Solucion:
+	sudo apt-get remove libportaudio2
+	sudo apt-get install libasound2-dev
+	git clone -b alsapatch https://github.com/gglockner/portaudio
+	cd portaudio
+	./configure && make
+	sudo make install
+	sudo ldconfig
+Fuente:
+	https://stackoverflow.com/questions/59006083/how-to-install-portaudio-on-pi-properly
