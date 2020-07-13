@@ -1,7 +1,7 @@
 # RaspiHome
 Asistente de voz realizado en python3 basado en una placa ARM Raspberry Pi 3
 
-# update
+# Update 1.0
 Se puede instalar en cualquier distro de linux, se tiene que quitar del main.py las menciones del archivo raspberry.py
 
 Este pequeño asistente de voz, nace a traves de la necesidad de poder impresionar a la chica que me gusta, y tambien para adaptar distintos dispositivos para su funcionamiento por reconocimiento de voz, como reles principalemte para poder activar/desactivar electrodomesticos, aunque principalmente inicio como un timer que encendia mis luces a cierta hora y las apaga despues, creo que se ha desarrollado muy bien para poder utilizarlo en placas de desarrollo como la Raspberry Pi.<br><br>
@@ -18,4 +18,3 @@ sudo apt-get install flac<br>
 sudo pip3 install SpeechRecognition<br>
 sudo pip3 install pyaudio<br>
 sudo pip3 install gTTS<br>
-
