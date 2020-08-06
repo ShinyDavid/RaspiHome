@@ -9,14 +9,8 @@ Considero que este proyecto es capaz de correr en cualquier versión de dicha ta
 Funciona hilos para realizar sus tareas, ademas que tiene la capacidad de poder recibir comandos a traves de sockets para ejecutarse de la misma forma que si se reconociera por voz (Esto es por que se trabaja en una aplicación para dispositivos moviles la cual pueda darle mas funcionalidad).<br><br>
 Aunque su uso es recomendable en raspberry Pi u otra tarjeta de desarrollo NO es forzoso utilizarlo en estos sistemas, puede funcionar en cualquier sistema linux de cualquier plataforma que tenga Python3, Pip3.<br><br>
 
-Para poder funcionar correctamente se deben instalar lo siguiente:
+La instalación se realiza en una placa de desarrollo Raspberry pi con sistema basado en debian "Raspbian", basta con descargar y ejecutar el archivo install_asistente.sh con permisos de root. (No es necesario usar antes apt update/upgrade).
 
 ```
-sudo apt-get install portaudio19-dev
-sudo apt-get install mpg321
-sudo apt install python3-pip
-sudo apt-get install flac
-sudo pip3 install SpeechRecognition
-sudo pip3 install pyaudio
-sudo pip3 install gTTS
+sudo install_asistente.sh
 ```
