@@ -8,6 +8,8 @@ La instalación se realiza en una placa de desarrollo Raspberry pi con sistema b
 sudo install_asistente.sh
 ```
 
+Despues de esto se debera editar el archivo main.py con su editor de texto favorito, para cambiar el nombre del microfono por el de su equipo y otras configuraciones que requiera o crea pertinentes.
+
 # Detalles
 Se puede instalar en cualquier distro de linux, se tiene que quitar del main.py las menciones del archivo raspberry.py
 
